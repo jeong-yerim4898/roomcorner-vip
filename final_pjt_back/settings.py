@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS =config('DEBUG', default=True, cast=bool)
+CORS_ALLOW_ALL_ORIGINS =True
 
 ROOT_URLCONF = 'final_pjt_back.urls'
 
