@@ -11,9 +11,9 @@ import requests
 from naver_movie.models import Genre, Movie
 
 import json
+from decouple import config
 
-
-apikey = 'b0f3a18ef4d0ed8c254bddef2685222b'
+apikey = config('TMDB_SECRET_KEY')
 lang = 'ko-KR'
 page = 1
 region = 'KR'
