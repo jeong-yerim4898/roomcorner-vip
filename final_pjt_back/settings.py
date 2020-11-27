@@ -29,7 +29,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = [
     'finalback.herokuapp.com',
     '127.0.0.1'
-    'https://please-stay-home.netlify.app'
+    'please-stay-home.netlify.app'
 ]
 
 
